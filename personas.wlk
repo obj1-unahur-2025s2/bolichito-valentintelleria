@@ -1,18 +1,18 @@
 import objetos.*
 
-object Rosa {
+object rosa {
   method leGusta(unaCosa){
     return unaCosa.peso() <= 2000
   }  
 }
 
-object Estefania {
+object estefania {
   method leGusta(unaCosa){
-    return unaCosa.color().esFuerte
+    return unaCosa.color().esFuerte()
   }  
 }
 
-object Luisa {
+object luisa {
   method leGusta(unaCosa){
     return unaCosa.material().esBrillante()
   }  

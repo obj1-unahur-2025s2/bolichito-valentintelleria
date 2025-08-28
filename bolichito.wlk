@@ -26,7 +26,7 @@ object bolichito {
     }
 
     method tieneObjetoDeColor(unColor){
-        objetoEnVidriera.color == unColor || objetoEnMostrador.color() == unColor
+        return objetoEnVidriera.color() == unColor || objetoEnMostrador.color() == unColor
     }
 
     method puedeMejorar(){
